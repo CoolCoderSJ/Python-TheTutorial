@@ -22,3 +22,8 @@ With this easy to use Python tutorial, you can learn python *the easy way*
   - In this tutorial, all text isn't white; And if you get deeper inside, you'll learn how to color your text too!
 - **Opportunities for you to try out the code you're learning!**
   - Throughout the tutorial, you will get Opportunities to type some code, and have it verified by the PythonTutorBot.
+  
+  
+#
+
+Tell me if you have any suggestions!
