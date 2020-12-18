@@ -32,4 +32,4 @@ Tell me if you have any suggestions!
 
 ### RUN THE TUTORIAL HERE
 
-<iframe height="1000px" width="100%" src="https://repl.it/@CoolCoderSJ/Python-TheTutorial?lite=true&outputonly=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="1000px" width="100%" src="https://repl.it/@CoolCoderSJ/Python-TheTutorial?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
