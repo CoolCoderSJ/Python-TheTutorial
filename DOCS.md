@@ -2,7 +2,11 @@
 
 With this easy to use Python tutorial, you can learn python *the easy way*
 
-#
+____________________________________________________________________________________________________
+
+Try it out [here](https://coolcodersj.github.io/Python-TheTutorial/DOCS.html#run-the-tutorial-here)
+
+____________________________________________________________________________________________________
 
 #### This Python tutorial covers -
 - Your first hello world! (Level1, Print)
@@ -12,7 +16,7 @@ With this easy to use Python tutorial, you can learn python *the easy way*
 
 
 
-#
+____________________________________________________________________________________________________
 
 #### Also Supports - 
 - **ACCOUNTS**
@@ -24,12 +28,13 @@ With this easy to use Python tutorial, you can learn python *the easy way*
   - Throughout the tutorial, you will get Opportunities to type some code, and have it verified by the PythonTutorBot.
   
   
-#
+____________________________________________________________________________________________________
 
 Tell me if you have any suggestions!
 
 
 
 ### RUN THE TUTORIAL HERE
+iframe not working? click [here](https://repl.it/@CoolCoderSJ/Python-TheTutorial?lite=true&outputonly=1)
 
 <iframe height="1000px" width="100%" src="https://repl.it/@CoolCoderSJ/Python-TheTutorial?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
