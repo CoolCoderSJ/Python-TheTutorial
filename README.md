@@ -5,6 +5,7 @@ With this easy to use Python tutorial, you can learn python *the easy way*
 ____________________________________________________________________________________________________
 
 Try it out [here](https://python.blip.gq#run-the-tutorial-here)
+[The official Repl Talk Post](https://repl.it/talk/learn/PYTHON-TUTORIAL/92006)
 
 ____________________________________________________________________________________________________
 
