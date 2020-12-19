@@ -1,4 +1,3 @@
-theme: hacker
 plugins:
   - jekyll-relative-links
 relative_links:
