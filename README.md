@@ -1,6 +1,3 @@
-window.location.replace("https:/python.blip.gq/DOCS.html");
-#
-#
 ### The Easy Way to Learn Python
 
 With this easy to use Python tutorial, you can learn python *the easy way*
