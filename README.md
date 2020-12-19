@@ -4,7 +4,7 @@ With this easy to use Python tutorial, you can learn python *the easy way*
 
 ____________________________________________________________________________________________________
 
-Try it out [here](https://coolcodersj.github.io/Python-TheTutorial/DOCS.html#run-the-tutorial-here)
+Try it out [here](https://python.blip.gq#run-the-tutorial-here)
 
 ____________________________________________________________________________________________________
 
@@ -15,6 +15,16 @@ ________________________________________________________________________________
 - Conditionals, with if, elif, and else (Level4)
 
 
+
+____________________________________________________________________________________________________
+
+
+#### Coming Up
+I plan to add the following topics later on
+
+- Functions
+- Lists
+- Dictionaries
 
 ____________________________________________________________________________________________________
 
