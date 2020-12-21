@@ -15,7 +15,8 @@ ________________________________________________________________________________
 - String vs. Int vs. Float (Level2)
 - Variables (Level3)
 - Conditionals, with if, elif, and else (Level4)
-
+- User Inputs (Level5)
+- Lists (Level6)
 
 
 ____________________________________________________________________________________________________
@@ -25,9 +26,10 @@ ________________________________________________________________________________
 I plan to add the following topics later on
 
 - Functions
-- Lists
+- 2D Lists
 - Dictionaries
-
+- Loops
+- Common Modules 
 ____________________________________________________________________________________________________
 
 #### Also Supports - 
