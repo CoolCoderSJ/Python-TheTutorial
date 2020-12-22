@@ -17,7 +17,7 @@ ________________________________________________________________________________
 - Conditionals, with if, elif, and else (Level4)
 - User Inputs (Level5)
 - Lists (Level6)
-
+- Functions (Level 7)
 
 ____________________________________________________________________________________________________
 
@@ -25,7 +25,6 @@ ________________________________________________________________________________
 #### Coming Up
 I plan to add the following topics later on
 
-- Functions
 - 2D Lists
 - Dictionaries
 - Loops
