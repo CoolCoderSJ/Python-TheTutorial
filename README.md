@@ -56,3 +56,5 @@ ALERT - Please sin into replit in another tab first or else you're going to get 
 
 
 <iframe height="1000px" width="100%" src="https://repl.it/@CoolCoderSJ/Python-TheTutorial?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+<script src='https://analytics.dupl.repl.co/analytics.js'></script>
