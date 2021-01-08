@@ -215,3 +215,49 @@ print(list_value_1)
 
 print(my_list[0])
 ```
+
+
+## Lesson 7, Functions
+
+FUNCTIONS.
+
+Literally one of the most important things in python. They hold functions to perform, and they help with organization and a lot of other things.
+
+SYNTAX: use def function_name(params, leave empty if none):
+                print("OOO COOL FUNCTION")
+                
+Example --
+```python
+def kool_function():
+  print("wow cool function!")
+```
+
+We define our function, where we tell python what w want it to do. 
+
+But wait! this does nothing right now, your output fo this would be --
+```
+>>>
+```
+Yeah not kidding. To run the function, call it. After defining your code, type
+
+```python
+kool_function()
+```
+your total code should look like this --
+```python
+def kool_function():
+  print("wow cool function!")
+kool_function()
+```
+Now, if we just run this, we will get this -
+```console
+>>> wow cool function!
+```
+You could define anything. 
+
+NOTE: Any variables defined inside of the function will only work in the function, and even if you defined it outside the function, it will create a local variable unless told not to. To use a variable from outside the function, type -- 
+
+```python
+def kool_function():
+  global var1
+```
