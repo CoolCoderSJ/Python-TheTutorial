@@ -6,6 +6,7 @@ relative_links:
   collections: true
 include:
   - README.md
+  - Docs.md
 
 title: Python-The Tutorial
 github:
