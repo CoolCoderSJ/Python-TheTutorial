@@ -184,3 +184,34 @@ fav_color = input("What's your favorite color?  ")
 ```
 
 Now, we can check the variable `fav_color`'s value  to do certain functions. (You can use usr inputs with conditionals now!!) Treat it like a normal variable. Remember to always add hypens, colons, spaces, etc. at the end of your question to differentiate the question and answer. The input will come in the console/shell, and you will answer by typing there.
+
+___
+
+Level 6, Lists
+Lists can store LOTS of things. They store practically everything, even other lists! (These are called 2D lists, you'll learn about them later.)
+
+LET US BEGIN
+
+Syntax: A list is enclosed with brackets, and its value is stored as a variable. Example -
+
+```python
+my_list = ["item1", "item2", "item3"]
+```
+Here, we define a variable, with lots of things inside of it.
+
+Now, if we just print this, we will get this -
+
+```
+[item1,tem2,item3]
+```
+
+To get an individual value, we have to call it. To call it, we type the variable name, then the location in brackets. \nNOTE: In lists, the first value is 0, not 1. If you call by location 1, you'll get the second value. Heres how to call a value --
+
+```python
+list_value_1 = my_list[0]
+print(list_value_1)
+
+#or
+
+print(my_list[0])
+```
