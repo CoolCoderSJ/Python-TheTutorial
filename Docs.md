@@ -1,3 +1,5 @@
+# Python -- The Tutorial (PDF EDITION)
+
 ## Lesson 0, INTRO TO IDEs
 
 Welcome, welcome! This is a bonus lesson, Level0! In this lesson, we're going to talk about IDEs, or Integrated Development Environments. An IDE is where you type your code, possibly install packages, run the code, and manage your files, all in one.
@@ -261,3 +263,198 @@ NOTE: Any variables defined inside of the function will only work in the functio
 def kool_function():
   global var1
 ```
+
+## Lesson 8, EXTENSION OF LESSON 6, 2D LISTS
+
+EXTENSION OF LEVEL 6, 2D LISTS.
+
+Numerous times, a simple value storage isn't enough. Maybe you want to store sets of keys/values with other keys/values inside the same list? Perhaps a login system that stores username and password in a list called logins? (IT IS NOT RECOMMENDED TO USE THIS BECAUSE THIS IS VERY INSECURE.)
+
+But anyhoo, the syntax is pretty much the same as a normal list. 
+
+Example --
+
+```python
+my_list = [["wow", "cool"], ["lol", "lmao"], ["yes", "no]]
+```
+
+We define our lists inside of a list.\nNow here's how to call it -
+
+```python
+print(my_list[0][1])
+```
+
+This calls the first value of the first list inside of the main list. Remember that 0 means 1. (Haha yes very confusing) If you just do    my_list[0], it will print out the first list, so it will print 
+
+```python
+>>> [wow, cool]
+```
+
+
+## Lesson 9, Loops part 1
+LOOPS.
+
+What if you ever wanted to repeat something over and over? It would be quite un organized and difficult to hand copy lines of code... 
+
+This lesson focuses on loops. During the lesson, you will learn about two types of loops broken down into two levels. The first loops is a while loop, which i used less frequently. A while loop runs its contents until a value is true.
+
+SYNTAX:
+
+type while (your condition here): 
+things to do here. 
+
+Example --
+
+```python
+x = 0
+while x < 5:
+  x += 1
+  print(x)
+```
+
+This loop runs until x is less than five, so it will run 4 times. On the fifth time, it will be equal to 5, not less than, so it wont run.
+
+## Lesson 10, Loops, part 2
+
+LOOPS PART 2.
+
+This lesson focuses on for loops. The second loop is a for loop, which is used more frequently. A for loop runs its contents for a certain period of time.
+
+SYNTAX:
+
+type for var in range(20): 
+  things to do here.
+  
+Example --
+
+```python
+for x in range(5):
+  x += 1
+  print(x)
+```
+
+This loop runs 5 times, each time adding 1 to x.  `range` provides a numerical value, but there are more ways. If instead of `range(5)` u put..
+
+- A string -
+  - It would run for `length of string` number of times.
+  
+- A list -
+  - it would run for the number of items in the list, BUT you cant add to x. In the case of a list, x would actually be the list item. So if u did -
+  ```python
+  for x in my_list:
+    print(x)
+  ```
+  This would print each item of a list on a sepaate line. 
+  
+## Lesson 11, Dictionaries
+
+DICTIONARIES.
+
+While lists are great for storing sets of data, Dictionaries are used for key-value pairs.
+
+Lets start.
+
+SYNTAX:
+
+Define it asa variable. use curly braces {} to define sets. inside the set, use colons : to separate key and value.
+
+Example --
+
+```python
+my_dict = {"yes":"no", "hi":"bye"}
+```
+
+This dictioanry sotres two pairs, yes and no, and hi and bye. Heres how we call a value: We call a value by the key. Type dict_name[key]. this returns the value. Example--
+
+```python
+my_dict = {"yes":"no", "hi":"bye"}
+print(my_dict['yes'])
+
+#Output
+>>> no
+```
+
+Now we're going to learn how to set values later in your code. Sometimes, you may want to add a pair later on in your code, or update the dict later on. Here's how you can do that --
+
+```python
+my_dict["new_key"] = "new_value"
+```
+
+The above statement sets a new key `"new_key"` to the value `"new_value"`. 
+
+If the key already exists and you run that line above, it will overwrite the current pair to the new pair/update the key to the new value. 
+
+## Lesson 12, Common Modules
+COMMON MODULES AND THEIR FUNCTIONS
+
+Sometimes, python doesn't always have the functions to do what you want. In this case, we use external packages, or modues.
+
+Repl.it is great, all packages are automatically installed when u give it the command. However, locally, you need to use something called pip3 to install packages. Here's how --
+
+Type
+
+```
+pip3 install <package name>
+```
+
+Into your computer's command prompt/terminal. In all IDEs, type -
+
+```python
+import <package name>
+```
+This tells python to look for commands from that package.
+
+Let's start with one of the popular modules, TIME. 
+
+to use it, 
+```python
+import time
+```
+It's most popular command is 
+```python
+time.sleep(num of secs)
+```
+
+This will freeze the Output for the specified number of seconds. Use it carefully, if you don't you will need to force quit your IDE.
+
+Next, MATH
+```python
+import math
+```
+Before we begin, i'll also tell you how to use python's inbuilt math (better to use both) to do some math functions.
+
+```python
+5+5 #addition
+5-5 #subtraction
+5*5 #multiplication
+5/5 #division
+5//5 #floor division, rounds number after dividing.
+
+#MATH FUNCTIONS WITH THE PACKAGE
+
+math.sqrt(number) #Square root of number
+math.factorial(x)
+```
+
+SPECIAL! LEARN HOW TO COLOR PYTHON OUTPUT -
+```python
+from termcolor import colored
+```
+Now do 
+```python
+print(colored("string", "color"))
+```
+Cool, right?
+
+
+RANDOM
+
+ Here's how to get a random number 
+ ```python
+ import random
+ random_number = random.randint(first_number, _last_number)
+ ```
+ The first number and last number is the range of numbers to look through. They are included in the search for random numbers.
+ 
+that's all I have to give right now ;-; . Click [here](https://repl.it/talk/learn/PYTHON-TUTORIAL/92006)
+and comment the package you would like to see for me to add it. That's all for this Tutorial, I hope liked it!
