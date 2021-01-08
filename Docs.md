@@ -187,7 +187,7 @@ Now, we can check the variable `fav_color`'s value  to do certain functions. (Yo
 
 ___
 
-Level 6, Lists
+## Level 6, Lists
 Lists can store LOTS of things. They store practically everything, even other lists! (These are called 2D lists, you'll learn about them later.)
 
 LET US BEGIN
