@@ -8,6 +8,10 @@ ________________________________________________________________________________
 
 <a href="https://python.blip.gq/#run-the-tutorial-here" class="btn btn-github"><span class="icon"></span>Run the Tutorial</a>
 
+<a href="https://sjurl.repl.co/l/pytutorialpdf/" class="btn btn-github"><span class="icon"></span>View Downloadable PDF</a>
+
+<a href="https://sjurl.repl.co/l/pytutorialo/" class="btn btn-github"><span class="icon"></span>View non interactive online</a>
+
 ____________________________________________________________________________________________________
 
 #### This Python tutorial covers -
