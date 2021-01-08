@@ -1,5 +1,7 @@
 # Python -- The Tutorial (PDF EDITION)
 
+It is recomended to go [here](https://sjurl.repl.co/pytutorial) for the interactive tutorial version with an account to save your progress! (You need a repl.it account for the interactive version.)
+
 ## Lesson 0, INTRO TO IDEs
 
 Welcome, welcome! This is a bonus lesson, Level0! In this lesson, we're going to talk about IDEs, or Integrated Development Environments. An IDE is where you type your code, possibly install packages, run the code, and manage your files, all in one.
