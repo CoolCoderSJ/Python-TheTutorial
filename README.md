@@ -1,6 +1,7 @@
 ### The Easy Way to Learn Python
 
 With this easy to use Python tutorial, you can learn python *the easy way*
+
 ![Upvotes](https://img.shields.io/badge/Upvotes%20on%20Repl%20Talk%20Received-120-blue)
 ____________________________________________________________________________________________________
 
