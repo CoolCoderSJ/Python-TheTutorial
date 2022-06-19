@@ -22,12 +22,16 @@ def lvltransfunc():
       sleep(time_between_letters)
 
 def hello_tryfunc(logUsername):  
-  global time_between_letters 
+  global time_between_letters
   hello_try = input("\nAll right, now it's time for you to try! Enter the print command with hello world.\nAs a note, please use single quotes, NOT double quotes.\nEnter --\n\n")
   hello_try.lower()
-  if hello_try == "print('hello world')" or hello_try == "print('Hello world')" or hello_try == "print('Hello World')":
+  if hello_try in [
+      "print('hello world')",
+      "print('Hello world')",
+      "print('Hello World')",
+  ]:
     lvltransfunc()
-    db[logUsername + "_location"] = 2
+    db[f"{logUsername}_location"] = 2
     level2(logUsername)
   else:
     hello_fail = "Uh oh\n\n that didn't work =( \nLet's try again."
@@ -40,7 +44,7 @@ def hello_tryfunc(logUsername):
 
 def level1(logUsername):
   global time_between_letters
-  db[logUsername + "_location"] = 1
+  db[f"{logUsername}_location"] = 1
   begin = "\nIT IS TIME!\n TIME FOR YOU TO LEARN ONE OF THE GREATEST LANGUAGES.\n\n"
   for x in begin:
     print(x, end='')
@@ -68,15 +72,20 @@ def level2(logUsername):
     sys.stdout.flush()
     sleep(time_between_letters)
   lvltransfunc()
-  db[logUsername + '_location'] = 3
+  db[f'{logUsername}_location'] = 3
   level3(logUsername)
 
 def vartryfunc(logUsername):
   global time_between_letters
   vartry = input("\nWe want the variable 'py1' to equal the string, 'hullo' . Please use single quotes. Define it below \n\n")
-  if vartry == "py1='hullo'" or vartry == "py1 = 'hullo'" or vartry == "py1= 'hullo'" or vartry == "py1 ='hullo'":
+  if vartry in [
+      "py1='hullo'",
+      "py1 = 'hullo'",
+      "py1= 'hullo'",
+      "py1 ='hullo'",
+  ]:
     lvltransfunc()
-    db[logUsername + "_location"] = 4
+    db[f"{logUsername}_location"] = 4
     level4(logUsername)
   else:
     varfail = "\nWhoopy daisy \n Try that again, remember to write the variable, an equal sign, then the value.\n"
@@ -109,10 +118,13 @@ def cond_tryfunc(logUsername):
     sys.stdout.flush()
     sleep(time_between_letters)
   cond_try = input(colored("Enter--\n\n", "yellow"))
-  if cond_try == """if num == 10:|    print("ok")""" or cond_try == """if num == 10:|    print('ok')""":
+  if cond_try in [
+      """if num == 10:|    print("ok")""",
+      """if num == 10:|    print('ok')""",
+  ]:
     lvltransfunc(logUsername)
-    db[logUsername + "_location"] = 5
-    #level5()
+    db[f"{logUsername}_location"] = 5
+      #level5()
   else:
     print("Uh oh! PythonTutorBot thinks that's wrong. =(\n(If you think this is a mistake, please ping @CoolCoderSJ on te official Repl Talk Post.\n\n")
     cond_tryfunc(logUsername)
@@ -147,8 +159,8 @@ def usrinpututryfunc(logUsername):
   if usrinpututry.startswith("usrinput=input") or usrinpututry.startswith("usrinput =input") or usrinpututry.startswith("usrinput= input") or usrinpututry.startswith("usrinput = input"):
     print("""\n\nWhoa..\n""")
     lvltransfunc()
-    db[logUsername + "_location"] = 6
-    #level6()
+    db[f"{logUsername}_location"] = 6
+      #level6()
   else:
     print("\n\nWhoopy daisy.\nTry that again.\n\n")
     usrinpututryfunc(logUsername)
@@ -177,7 +189,7 @@ def level5(logUsername):
 
 
 def begin(logUsername):
-  db[logUsername + "_location"] = 1
+  db[f"{logUsername}_location"] = 1
   global time_between_letters
   credits = "All credits for this tutorial go to CoolCoderSJ/Shuchir Jain. Let's begin!\n"
 
@@ -203,21 +215,25 @@ while True:
   print(colored("[4]Pick a Level Manually", "blue"))
   action = input()
   time.sleep(0.5)
-  if(action == "1"):
+  if (action == "1"):
     print("\033c")
     username = input(colored("What is your username: ", "blue"))
     time.sleep(0.5)
     password = input(colored("What password do you want to save: ", "blue"))
     if username in db:
       print(colored("Account already exists.", "red"))
-      time.sleep(1)
-      print("\033c")
     else:
       db[username] = password
-      print(colored("Great! Your username is "+username+" and your password is "+password+" Don't worry, only you can access these passwords and usernames, and all data is encrypted. You're going to be redirected to the main page now, Login with your new credentials to gt started.", "green"))
-      time.sleep(1)
-      print("\033c")
-  elif(action == "2"):
+      print(
+          colored(
+              f"Great! Your username is {username} and your password is {password}"
+              +
+              " Don't worry, only you can access these passwords and usernames, and all data is encrypted. You're going to be redirected to the main page now, Login with your new credentials to gt started.",
+              "green",
+          ))
+    time.sleep(1)
+    print("\033c")
+  elif action == "2":
     print("\033c")
     logUsername = str(input(colored("Enter your username: ", "yellow")))
     time.sleep(0.5)
@@ -225,19 +241,19 @@ while True:
     if logUsername in db:
       if userValue == db[logUsername]:
         print("Logged In! Now redirecting you to te last place you left off...")
-        if logUsername + "_location" in db:
-          if db[logUsername + "_location"] == 1:
+        if f"{logUsername}_location" in db:
+          if db[f"{logUsername}_location"] == 1:
             level1(logUsername)
-          elif db[logUsername + "_location"] == 2:
+          elif db[f"{logUsername}_location"] == 2:
             level2(logUsername)
-          elif db[logUsername + "_location"] == 3:
+          elif db[f"{logUsername}_location"] == 3:
             level3(logUsername)
-          elif db[logUsername + "_location"] == 4:
+          elif db[f"{logUsername}_location"] == 4:
             level4(logUsername)
-          elif db[logUsername + "_location"] == 5:
+          elif db[f"{logUsername}_location"] == 5:
             level5(logUsername)
-        elif logUsername+"_location" not in db:
-          db[logUsername + "_location"] = 0
+        else:
+          db[f"{logUsername}_location"] = 0
           begin(logUsername)
       else:
         print("Uh oh wrong password")
@@ -258,24 +274,16 @@ while True:
         confirmdel = input(colored("WARNING!\nTHIS ACTION IS NOT REVERSIBLE. ALL DATA ASSOCIATED WITH THIS ACCOUNT WILL BE DELETED PERMANENTLY. DO YOU WISH TO CONTINUE? y/n: ", "red"))
         if confirmdel == "y":
           del db[user]
-          del db[user + "_location"]
+          del db[f"{user}_location"]
           print(colored("Account successfully deleted.", "red"))
-          time.sleep(1)
-          print("\033c")
         else:
           print(colored("Account deletion cancelled.", "green"))
-          time.sleep(1)
-          print("\033c")
       else:
         print(colored("INCORRECT PASSWORD", "red"))
-        time.sleep(1)
-        print("\033c")
     else:
       print(colored("Not a valid user.", "red"))
-      time.sleep(1)
-      print("\033c")
-
-
+    time.sleep(1)
+    print("\033c")
   elif action == "4":
     print("\033c")
     logUsername = str(input(colored("Enter your username: ", "yellow")))
